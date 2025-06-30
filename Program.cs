@@ -91,6 +91,28 @@
             else result = "Just Good";
             #endregion
 
+            #region Q11
+            //11-	Write a program that takes the date from the user and displays it in various formats using string interpolation.
+            //Ex:
+            //Today’s date : 20 , 11 , 2001
+            //Today's date : 20 / 11 / 2001
+            //Today's date : 20 – 11 – 2001
+
+            Console.WriteLine("I want Today Date in numbers :\n");
+            Console.WriteLine("what is the day num");
+            int day = int.Parse(Console.ReadLine());
+            Console.WriteLine("what is the month num");
+            int month = int.Parse(Console.ReadLine());
+            Console.WriteLine("what is the year num");
+            int year = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("________________________\n");
+            Console.WriteLine("then fulldate can be written as : ");
+            Console.WriteLine($"{day} , {month} , {year}");
+            Console.WriteLine($"{day} / {month} / {year}");
+            Console.WriteLine($"{day} - {month} - {year}");
+            #endregion
+
         }
     }
     class point
