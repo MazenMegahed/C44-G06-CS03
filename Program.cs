@@ -29,6 +29,12 @@
             double division = num1 / num2;
             #endregion
 
+            #region Q4
+            //4-	Write C# program that Extract a substring from a given string.
+
+            string originalstring = "abcdefg";
+            string substring1 = originalstring.Substring(2, 3); // result = cde
+            #endregion
         }
     }
 }
