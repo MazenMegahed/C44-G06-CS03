@@ -113,6 +113,13 @@
             Console.WriteLine($"{day} - {month} - {year}");
             #endregion
 
+            #region Q12
+            //12- What is the output of the following C# code?
+            //DateTime date = new DateTime(2024, 6, 14); Console.WriteLine($"The event is on {date:MM/dd/yyyy}");
+
+            string choice = "c) The event is on 06/14/2024";
+            #endregion
+
         }
     }
     class point
