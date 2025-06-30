@@ -54,6 +54,17 @@
             p1 = new point(2, 3);
             //result : p1 refers to new coordinates but p2 refers to the old coordinates 
             #endregion
+
+            #region Q7
+            //7 - Write C# program that take two string variables and print them as one variable 
+            Console.WriteLine("enter Your First Name ");
+            string fn = Console.ReadLine();
+            Console.WriteLine("enter Your Last Name ");
+            string ln = Console.ReadLine();
+            Console.WriteLine(" ____________________\n");
+            string fullname = fn + " " + ln;
+            Console.WriteLine($"then your Full name : {fullname}");
+            #endregion
         }
     }
     class point
