@@ -45,6 +45,29 @@
             //result : y takes the old value of x but x now has new value replaced by the old 
 
             #endregion
+
+            #region Q6
+            //6-	Write C# program that Assigning one reference type variable to another and modifying the object through one variable and mention what will happen
+            point p1 = new point(1, 2);
+            point p2;
+            p2 = p1;
+            p1 = new point(2, 3);
+            //result : p1 refers to new coordinates but p2 refers to the old coordinates 
+            #endregion
         }
     }
+    class point
+    {
+        public int xx;
+        public int yy;
+        public point(int x, int y)
+        {
+            xx = x; yy = y;
+        }
+        public override string ToString()
+        {
+            return $"x={xx} , y={yy}";
+        }
+    }
+
 }
