@@ -74,6 +74,14 @@
 
             double Interest = (principalamount * interestrate * period) / 100;
             #endregion
+
+            #region Q9
+            //9-	Write a program that calculates the Body Mass Index (BMI) given a person's weight in kilograms and height in meters.The formula for BMI isBMI = (Weight) / (Height * Height)
+            double height = 190 / 100d;
+            double weigth = 85;
+            double BMI = weigth / (height * height);
+            #endregion
+
         }
     }
     class point
