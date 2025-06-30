@@ -128,6 +128,13 @@
             choice = "f)	A value 1 will be assigned to d.";
             #endregion
 
+            #region Q14
+            //14-	Which of the following is the correct output for the C# code given below?
+            //Console.WriteLine(13 / 2 + " " + 13 % 2); 
+
+            choice = "d)6 1";
+            #endregion
+
 
         }
     }
