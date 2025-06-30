@@ -35,6 +35,16 @@
             string originalstring = "abcdefg";
             string substring1 = originalstring.Substring(2, 3); // result = cde
             #endregion
+
+            #region Q5
+            //5-	Write C# program that Assigning one value type variable to another and modifying the value of one variable and mention what will happen
+            int x1 = 5;
+            int y1;
+            y1 = x1;
+            x1 = 88;
+            //result : y takes the old value of x but x now has new value replaced by the old 
+
+            #endregion
         }
     }
 }
