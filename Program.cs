@@ -65,6 +65,15 @@
             string fullname = fn + " " + ln;
             Console.WriteLine($"then your Full name : {fullname}");
             #endregion
+
+            #region Q8
+            //8-	Write a program that calculates the simple interest given the principal amount, rate of interest, and time.The formula for simple interest is //Interest = (principal * rate * time) / 100.
+            int principalamount = 10000;
+            int interestrate = 25;
+            int period = 1;
+
+            double Interest = (principalamount * interestrate * period) / 100;
+            #endregion
         }
     }
     class point
