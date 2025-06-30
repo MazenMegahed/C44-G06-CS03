@@ -17,6 +17,18 @@
             int NUM = int.Parse(Console.ReadLine());
             //it will give me exception error :The input string was not in a correct format.
             #endregion
+
+            #region Q3
+            //Write C# program that Perform a simple arithmetic operation with floating-point numbers And mention what will happen
+            int num1 = 5, num2 = 6;
+            int summation = num1 + num2;
+            int substraction;
+            if (num1 > num2) substraction = num1 - num2;
+            else substraction = num2 - num1;
+            int multiplication = num1 * num2;
+            double division = num1 / num2;
+            #endregion
+
         }
     }
 }
