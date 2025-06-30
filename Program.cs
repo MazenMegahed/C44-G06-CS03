@@ -82,6 +82,15 @@
             double BMI = weigth / (height * height);
             #endregion
 
+            #region Q10
+            //10-	Write a program that uses the ternary operator to check if the temperature is too hot, too cold, or just good. Assign the result in a variable then display the result. Assume that below 10 degrees is "Just Cold", above 30 degrees is "Just Hot", and anything else is "Just Good".
+            double temperature = 25;
+            string result;
+            if (temperature < 10) result = "Just Cold";
+            else if (temperature > 30) result = "Just Hot";
+            else result = "Just Good";
+            #endregion
+
         }
     }
     class point
